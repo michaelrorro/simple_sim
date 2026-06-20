@@ -7,6 +7,9 @@ dependencies = [
     "simpy>=4.1.1",
 ]
 
+[project.scripts]
+simple-sim = "simple_sim.simulation:main"
+
 [project.optional-dependencies]
 dev = [
     "pytest>=8.0",
